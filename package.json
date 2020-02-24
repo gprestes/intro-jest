@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0"
+  },
+  "name": "intro-jest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Guilherme Heuser Prestes <guilherme.prestes@gmail.com>",
+  "license": "MIT"
+}
