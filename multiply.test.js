@@ -11,3 +11,7 @@ test('object example', () => {
     data['second'] = 2;
     expect(data).toEqual({first:1, second:2});
 });
+
+test('multiply 4*3 should equal to 11', () => {
+    expect(multiply(4,3)).not.toBe(11)
+});
