@@ -12,3 +12,12 @@ describe('test multiply positive scenarios',() => {
         expect(multiply(3,2)).toBeLessThanOrEqual(6)
     });
 })
+
+test('null', () => {
+    const n = null
+    expect(n).toBeNull()
+    expect(n).toBeDefined()
+    expect(n).not.toBeUndefined()
+    expect(n).not.toBeTruthy()
+    expect(n).toBeFalsy()
+})
