@@ -12,14 +12,9 @@ function filterItemStock(arr, key, term) {
 }
 
 test('it returns all items with matching Id', () => {
-    expect(filterItemStock(itemStock, 'Id', '1')).toEqual([
-        {'Id': '1', 'ItemName': 'Razors', 'Stock': '10'}
-    ])
+    expect(filterItemStock(itemStock, 'Id', '1')).toMatchSnapshot()
 })
 
 test('it returns all items with matching Item Name', () => {
-    expect(filterItemStock(itemStock, 'ItemName', 'Socks')).toEqual([
-        {'Id': '2', 'ItemName': 'Socks', 'Stock': '1'},
-        {'Id': '4', 'ItemName': 'Socks', 'Stock': '100'},
-    ])
+    expect(filterItemStock(itemStock, 'ItemName', 'Socks')).toMatchSnapshot()
 })
