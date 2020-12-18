@@ -9,9 +9,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2.3.4
-      - uses: borales/actions-yarn@v2.1.0
+      - uses: borales/actions-yarn@v2.3.0
         with:
           cmd: install
-      - uses: borales/actions-yarn@v2.1.0
+      - uses: borales/actions-yarn@v2.3.0
         with:
           cmd: test
