@@ -4,7 +4,7 @@
     "test:watch": "jest --watchAll"
   },
   "devDependencies": {
-    "jest": "27.0.6"
+    "jest": "27.1.0"
   },
   "name": "intro-jest",
   "version": "1.0.0",
